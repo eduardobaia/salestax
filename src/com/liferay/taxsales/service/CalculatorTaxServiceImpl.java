@@ -34,19 +34,7 @@ public class CalculatorTaxServiceImpl implements CalculatorTaxService{
 		BigDecimal taxPercentage=null;
 		
 		List<InputDTO> newInputDTOList = new ArrayList<InputDTO>();
-		
-//		if(inputDTOList !=null){
-//			
-//			for(int i=0; i<inputDTOList.size();  i++){
-//				
-//				
-//				
-//			}
-//			
-//		
-//			
-//		}
-		
+
 		for(InputDTO  inputDTO : inputDTOList){
 
 			if(inputDTO.isFlagIsExempt()){
